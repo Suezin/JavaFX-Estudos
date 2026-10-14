@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.AplicativoDeSoma.CalculadoraController">
+   <children>
+      <Button fx:id="btnSomar" layoutX="270.0" layoutY="287.0" mnemonicParsing="false" onAction="#calcularSoma" text="CALCULAR" />
+      <TextField fx:id="txtNumero1" layoutX="75.0" layoutY="120.0" promptText="1º Digito" />
+      <TextField fx:id="txtNumero2" layoutX="75.0" layoutY="187.0" promptText="2º Digito" />
+      <Label layoutX="211.0" layoutY="36.0" text="CALCULADORA DE SOMA" />
+      <Label layoutX="402.0" layoutY="111.0" prefHeight="18.0" prefWidth="103.0" text="RESULTADO" />
+      <Label fx:id="lblResultado" alignment="CENTER" contentDisplay="CENTER" layoutX="353.0" layoutY="151.0" prefHeight="36.0" prefWidth="174.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
