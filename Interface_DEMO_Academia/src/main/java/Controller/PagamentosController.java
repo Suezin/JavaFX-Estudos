@@ -1,4 +1,4 @@
-package com.example.intefaceacademia;
+package Controller;
 
 public class PagamentosController {
 }

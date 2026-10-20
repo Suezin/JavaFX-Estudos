@@ -1,0 +1,5 @@
+fazer a tela de Alunos com uma tabela de dados colocar botoes para as funcoes e fazer funcoes que sejam iniciadas e ja inseridas em graficos
+assim como o controle de quantidade de alunos no ultimo mês que seria feita uma query que pegaria os dados e colocaria na tabela de grafico
+colocar tambem estatisticas mais especificas nessa tela para que o controle seja grande 
+na tela de inicio somente alguns dados básicos e o controle maior na parte de alunos, planos, pagamentos.
+
