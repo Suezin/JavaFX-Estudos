@@ -21,7 +21,7 @@ public class PrincipalController {
     @FXML
     public void onBtnAlunosClick() throws IOException {
         try {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("alunos-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/intefaceacademia/Alunos/alunos-view.fxml"));
         Stage stage = new Stage();
         stage.setTitle("Funções de Alunos");
         stage.setScene(new Scene(fxmlLoader.load(), 1024,768));

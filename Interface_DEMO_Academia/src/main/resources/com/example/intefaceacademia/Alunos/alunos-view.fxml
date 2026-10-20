@@ -12,16 +12,16 @@
 <AnchorPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AlunosController">
    <children>
       <Label layoutX="491.0" layoutY="14.0" text="Alunos" />
-      <TableView layoutX="151.0" layoutY="53.0" prefHeight="286.0" prefWidth="804.0">
+      <TableView fx:id="tableAlunos" layoutX="151.0" layoutY="53.0" prefHeight="286.0" prefWidth="804.0">
         <columns>
-          <TableColumn prefWidth="37.0" text="id" />
-          <TableColumn prefWidth="342.0" text="Nome" />
-            <TableColumn prefWidth="171.0" text="CPF" />
-            <TableColumn prefWidth="122.0" text="Data Nasc" />
-            <TableColumn prefWidth="131.0" text="Plano" />
+          <TableColumn fx:id="columnIdAluno" prefWidth="37.0" text="id" />
+          <TableColumn fx:id="columnNameAluno" prefWidth="342.0" text="Nome" />
+            <TableColumn fx:id="columnCpfAluno" prefWidth="171.0" text="CPF" />
+            <TableColumn fx:id="columnDateBirthAluno" prefWidth="122.0" text="Data Nasc" />
+            <TableColumn fx:id="columnPlainAluno" prefWidth="131.0" text="Plano" />
         </columns>
       </TableView>
-      <Button layoutX="7.0" layoutY="75.0" mnemonicParsing="false" text="Inserir novo Aluno" />
+      <Button layoutX="7.0" layoutY="75.0" mnemonicParsing="false" onAction="#onInsertAlunoBtnAction" text="Inserir novo Aluno" />
       <Button layoutX="23.0" layoutY="138.0" mnemonicParsing="false" text="Alterar Aluno" />
       <Button layoutX="17.0" layoutY="206.0" mnemonicParsing="false" text="Remover Aluno" />
       <BarChart layoutX="23.0" layoutY="425.0" prefHeight="278.0" prefWidth="425.0">
