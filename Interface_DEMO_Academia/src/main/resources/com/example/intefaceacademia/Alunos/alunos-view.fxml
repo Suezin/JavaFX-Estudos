@@ -21,9 +21,9 @@
             <TableColumn fx:id="columnPlainAluno" prefWidth="131.0" text="Plano" />
         </columns>
       </TableView>
-      <Button layoutX="7.0" layoutY="75.0" mnemonicParsing="false" onAction="#onInsertAlunoBtnAction" text="Inserir novo Aluno" />
-      <Button layoutX="23.0" layoutY="138.0" mnemonicParsing="false" text="Alterar Aluno" />
-      <Button layoutX="17.0" layoutY="206.0" mnemonicParsing="false" text="Remover Aluno" />
+      <Button fx:id="insertAlunoBtn" layoutX="7.0" layoutY="75.0" mnemonicParsing="false" onAction="#onInsertAlunoBtnAction" text="Inserir novo Aluno" />
+      <Button fx:id="alterAlunoBtn" layoutX="23.0" layoutY="138.0" mnemonicParsing="false" onAction="#onAlterAlunoBtnAction" text="Alterar Aluno" />
+      <Button fx:id="deleteAlunoBtn" layoutX="17.0" layoutY="206.0" mnemonicParsing="false" text="Remover Aluno" />
       <BarChart layoutX="23.0" layoutY="425.0" prefHeight="278.0" prefWidth="425.0">
         <xAxis>
           <CategoryAxis side="BOTTOM" />

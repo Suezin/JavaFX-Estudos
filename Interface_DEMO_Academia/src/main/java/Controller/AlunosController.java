@@ -48,11 +48,23 @@ public class AlunosController {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/intefaceacademia/Alunos/insertAluno-view.fxml"));
             Stage stage = new Stage();
             stage.setTitle("Inserir Alunos");
-            stage.setScene(new Scene(fxmlLoader.load(), 1024, 768));
+            stage.setScene(new Scene(fxmlLoader.load(), 600, 400));
             stage.show();
 
         } catch (IOException e) {
             Alerts.showAlerts("Alunos", "Erro ao entrar na interface de inserção de Aluno", "Erro " + e, Alert.AlertType.ERROR);
+        }
+    }
+
+    public void onAlterAlunoBtnAction() throws IOException{
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/intefaceacademia/Alunos/alterAluno-view.fxml"));
+            Stage stage = new Stage();
+            stage.setTitle("Alterar Alunos");
+            stage.setScene(new Scene(fxmlLoader.load(), 600, 400));
+            stage.show();
+        }catch(IOException e ){
+            Alerts.showAlerts("Alterar Aluno", "Erro ao Entrar na Interface de Alteração", null, Alert.AlertType.ERROR);
         }
     }
 }

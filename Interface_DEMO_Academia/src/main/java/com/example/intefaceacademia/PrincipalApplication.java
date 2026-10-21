@@ -15,5 +15,6 @@ public class PrincipalApplication extends Application {
         stage.setTitle("Tela Principal");
         stage.setScene(scene);
         stage.show();
+
     }
 }
