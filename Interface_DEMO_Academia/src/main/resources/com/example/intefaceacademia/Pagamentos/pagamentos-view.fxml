@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PagamentosController">
+   <children>
+      <Label layoutX="474.0" layoutY="14.0" text="Pagamentos" />
+      <Button fx:id="btnInsertPagamento" layoutX="14.0" layoutY="153.0" mnemonicParsing="false" text="Inserir novo Pagamento" />
+      <Button fx:id="btnAlterPagamento" layoutX="30.0" layoutY="207.0" mnemonicParsing="false" text="Alterar Pagamento" />
+      <Button fx:id="btnDeletePagamento" layoutX="24.0" layoutY="264.0" mnemonicParsing="false" text="Remover Pagamento" />
+      <TableView layoutX="205.0" layoutY="102.0" prefHeight="611.0" prefWidth="784.0">
+        <columns>
+          <TableColumn fx:id="columnId" prefWidth="58.0" text="ID" />
+          <TableColumn fx:id="columnDate" prefWidth="176.0" text="DATA DE PAGAMENTO" />
+            <TableColumn fx:id="columnPrice" prefWidth="132.0" text="VALOR" />
+            <TableColumn fx:id="columnAluno" prefWidth="234.0" text="ALUNO" />
+            <TableColumn fx:id="columnPlain" prefWidth="183.0" text="PLANO PAGO" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

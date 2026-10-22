@@ -34,7 +34,7 @@ public class PrincipalController {
     @FXML
     public void onBtnPagamentosClick() throws IOException {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("pagamentos-view.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/intefaceacademia/Pagamentos/pagamentos-view.fxml"));
             Stage stage = new Stage();
             stage.setTitle("Funções de Pagamentos");
             stage.setScene(new Scene(fxmlLoader.load(), 1024,768));
@@ -47,7 +47,7 @@ public class PrincipalController {
     @FXML
     public void onBtnPlanosClick() throws IOException {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("planos-view.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/intefaceacademia/Planos/planos-view.fxml"));
             Stage stage = new Stage();
             stage.setTitle("Funções de Planos");
             stage.setScene(new Scene(fxmlLoader.load(), 1024,768));
