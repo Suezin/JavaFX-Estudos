@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.InsertPagamentoController">
+   <children>
+      <Button fx:id="btnCancelar" layoutX="167.0" layoutY="350.0" mnemonicParsing="false" text="Cancelar" />
+      <Button fx:id="btnSalvar" layoutX="361.0" layoutY="350.0" mnemonicParsing="false" text="Salvar" />
+      <Label layoutX="239.0" layoutY="14.0" text="Alterar Pagamentos" />
+      <TextField fx:id="txtDatePayment" layoutX="39.0" layoutY="152.0" />
+      <TextField fx:id="txtPrice" layoutX="39.0" layoutY="230.0" />
+      <TextField fx:id="txtAluno" layoutX="361.0" layoutY="152.0" />
+      <TextField fx:id="txtPlain" layoutX="361.0" layoutY="230.0" />
+      <TextField fx:id="txtId" layoutX="41.0" layoutY="80.0" />
+      <Label layoutX="41.0" layoutY="55.0" text="ID" />
+      <Label layoutX="39.0" layoutY="128.0" text="DATA DE PAGAMENTO" />
+      <Label layoutX="39.0" layoutY="200.0" text="VALOR" />
+      <Label layoutX="361.0" layoutY="128.0" text="ALUNO" />
+      <Label layoutX="361.0" layoutY="200.0" text="PLANO" />
+   </children>
+</AnchorPane>
